@@ -35,9 +35,9 @@ namespace Task2
                 }
             }
             a = newArr;
-            System.Array.Resize(ref a, k);
+            System.Array.Resize(ref a, k);//resizing the array//
             string[] lines = a.Select(x => x.ToString()).ToArray();
-            System.IO.File.WriteAllLines(@"C:\test\testFileOut.txt", lines);
+            System.IO.File.WriteAllLines(@"C:\test\testFileOut.txt", lines);//writing new results to the file//
             Console.ReadKey();
 
             bool IsPrime(int n)//function for determining whether the number is prime or not//
