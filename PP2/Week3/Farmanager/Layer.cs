@@ -63,7 +63,7 @@ namespace FarManager
             {
                 if (i == SelectedItem)
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.BackgroundColor = ConsoleColor.White;
                 }
                 else
                 {

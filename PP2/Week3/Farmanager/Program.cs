@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FarManager
 {
-    enum FARMode
+    enum FARMode//2 logical constants//
     {
         DIR,
         FILE
@@ -22,8 +22,8 @@ namespace FarManager
             history.Push(
                     new Layer
                     {
-                        Content = root.GetFileSystemInfos().ToList(),
-                        SelectedItem = 0
+                        Content = root.GetFileSystemInfos().ToList(),//print the list of files//
+                        SelectedItem = 0//default selection of the first element//
                     }
                 );
 
@@ -34,8 +34,8 @@ namespace FarManager
                 {
                     history.Peek().Draw();
                 }
-                ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
-                switch (consoleKeyInfo.Key)
+                ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();//read key input//
+                switch (consoleKeyInfo.Key)//different types of actions//
                 {
                     case ConsoleKey.Delete://delete//
                         history.Peek().DeleteSelectedItem();
@@ -59,7 +59,7 @@ namespace FarManager
                         break;
                     case ConsoleKey.Enter://open dir//
                         int x = history.Peek().SelectedItem;
-                        FileSystemInfo fileSystemInfo = history.Peek().Content[x];
+                        FileSystemInfo fileSystemInfo = history.Peek().Content[x];//get the content of the selected object//
                         if (fileSystemInfo.GetType() == typeof(DirectoryInfo))
                         {
                             DirectoryInfo directoryInfo = fileSystemInfo as DirectoryInfo;
