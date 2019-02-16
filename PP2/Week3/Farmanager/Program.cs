@@ -49,7 +49,7 @@ namespace FarManager
                     case ConsoleKey.Backspace://go back//
                         if (mode == FARMode.DIR)
                         {
-                            history.Pop();
+                            history.Pop();//return last content of history without removing it//
                         }
                         else
                         {
@@ -66,7 +66,7 @@ namespace FarManager
                             history.Push(
                                new Layer//executes another code Layer with new info about directory//
                                {
-                                   Content = directoryInfo.GetFileSystemInfos().ToList(),
+                                   Content = directoryInfo.GetFileSystemInfos().ToList(),//content of the new layer is from the directory//
                                    SelectedItem = 0
                                });
                         }
