@@ -1,0 +1,11 @@
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\bin\Debug\netcoreapp2.2\Farmanager.deps.json
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\bin\Debug\netcoreapp2.2\Farmanager.runtimeconfig.json
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\bin\Debug\netcoreapp2.2\Farmanager.runtimeconfig.dev.json
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\bin\Debug\netcoreapp2.2\Farmanager.dll
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\bin\Debug\netcoreapp2.2\Farmanager.pdb
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\obj\Debug\netcoreapp2.2\Farmanager.csprojAssemblyReference.cache
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\obj\Debug\netcoreapp2.2\Farmanager.csproj.CoreCompileInputs.cache
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\obj\Debug\netcoreapp2.2\Farmanager.AssemblyInfoInputs.cache
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\obj\Debug\netcoreapp2.2\Farmanager.AssemblyInfo.cs
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\obj\Debug\netcoreapp2.2\Farmanager.dll
+C:\Users\Zver\PP2\pp\PP2\Week3\Farmanager\obj\Debug\netcoreapp2.2\Farmanager.pdb
